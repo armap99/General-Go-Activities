@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Agregar alumno</h1>   
+        <form action="/response-status" method="POST">
+            <input type="hidden" name="view" value="add-student">
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" name="name">
+                </div>
+                <div>
+                    <label>Materia</label>
+                    <input type="text" name="subject">
+                </div>
+                <div>
+                    <label >Calificacion</label>
+                    <input type="number" name="score">
+                </div>
+                <div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+                <div>
+                <a href="/index" >Regresar</a>
+            </div>
+</body>
+</html>
